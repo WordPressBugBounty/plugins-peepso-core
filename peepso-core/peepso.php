@@ -5,7 +5,7 @@
  * Description: PeepSo Foundation - The Next Generation Social Networking Plugin for WordPress. <strong>📱 <a href="https://PeepSo.com/app" target="_blank">Now with Mobile App for Your Community.</a></strong>
  * Author: PeepSo
  * Author URI: https://peepso.com
- * Version: 6.4.6.0
+ * Version: 6.4.6.1
  * Copyright: (c) 2015 PeepSo, Inc. All Rights Reserved.
  * License: GPLv2 or later
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -28,7 +28,7 @@ class PeepSoSystemRequirements {
 
     const MEMORY_REQUIRED = '64M';
 
-    const RELEASE_DATE = '2024-08-13';
+    const RELEASE_DATE = '2024-09-26';
 
     const DEMO_SITES = [
         'demo.peepso.com',
@@ -47,7 +47,7 @@ class PeepSo
 {
     const MODULE_ID = 0;
 
-    const PLUGIN_VERSION = '6.4.6.0';
+    const PLUGIN_VERSION = '6.4.6.1';
     const PLUGIN_RELEASE = ''; //ALPHA1, RC1 etc, '' for STABLE
 
     const PLUGIN_NAME = 'PeepSo';
@@ -658,12 +658,13 @@ class PeepSo
                 // Do nothing for demo pages
                 if(PeepSoSystemRequirements::is_demo_site()) { return; }
 
-                $major_version = explode('.',PeepSo::PLUGIN_VERSION);
-                while(count($major_version) > 2) {
-                    array_pop($major_version);
-                }
-                $major_version = implode('',$major_version);
-
+//                $major_version = explode('.',PeepSo::PLUGIN_VERSION);
+//                while(count($major_version) > 2) {
+//                    array_pop($major_version);
+//                }
+//                $major_version = implode('',$major_version);
+                
+                $major_version = PeepSo::PLUGIN_VERSION;
                 $option_name = 'peepso_hide_installer_'.$major_version;
 
                 if(isset($_GET['page']) && 'peepso-installer' == $_GET['page']) {
@@ -947,12 +948,16 @@ class PeepSo
             add_filter('pre_user_login', function($login){
 
                 // if the username might be an email
-                if(strpos($login, '@') !== FALSE) {
+                if(strpos($login, '@') !== FALSE || strpos($login, '.') !== FALSE) {
                     $old_login = $login;
 
                     // only grab the fist part
-                    $login = explode('@', $login);
-                    $login = $login[0];
+                    if(strpos($login, '@') !== FALSE) {
+                        $login = explode('@', $login);
+                        $login = $login[0];
+                    }
+
+                    $login = str_replace('.','_', $login);
 
                     // if the first part is empty or too short, generate a random one
                     if(strlen($login) < 3) {
@@ -3781,7 +3786,7 @@ class PeepSo
 
         global $wpdb;
 
-        $sql = "SELECT id as ID, post_content, post_title FROM $wpdb->posts WHERE post_type='page' AND post_status='publish' AND (post_content LIKE '%[{$sc}]%' OR post_content LIKE '%<!-- wp:{$sc}%')";
+        $sql = "SELECT id as ID, post_content, post_title FROM $wpdb->posts WHERE post_type='page' AND post_status='publish' AND (post_content LIKE '%[{$sc}%' OR post_content LIKE '%<!-- wp:{$sc}%')";
         $pages = $wpdb->get_results($sql);
 
         if (count($pages)) {
@@ -5764,6 +5769,8 @@ class PeepSo
     public static function do_parsedown($content)
     {
         $content = '<div class="peepso-markdown">' . html_entity_decode($content) .' </div>';
+        // Prevent XSS.
+        $content = preg_replace('/<(\/?)script/', '&lt;$1script', $content);
         return $content;
     }
 // Blogposts

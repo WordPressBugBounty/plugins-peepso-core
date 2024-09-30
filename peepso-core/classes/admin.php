@@ -612,20 +612,24 @@ class PeepSoAdmin
                     ),
                     'addon' => array(
                         'slug' => 'peepso-installer',
-                        'menu' => '<span style="color:#3f9f2e">' . __('Installer', 'peepso-core') . '</span>' . $installer_new,
+                        'menu' => __('Installer', 'peepso-core') . $installer_new,
                         'icon' => 'admin-plugins',
                         'function' => array('PeepSoAdmin', 'addons'),
                         //'count' => __('NEW!', 'peepso-core'),
                     ),
-//                    'app' => array(
-//                        'slug' => 'https://PeepSo.com/app',
-//                        'menu' => '📱 ' . __('Get Mobile App', 'peepso-core') . "<!--$666-->".'</span></span>',
-//                        'icon' => 'admin-plugins',
-//                        //'function' => array('PeepSoAdmin', 'app'),
-//                        //'count' => __('NEW!', 'peepso-core'),
-//                    ),
+                    'app' => array(
+                        'slug' => 'https://PeepSo.com/app',
+                        'menu' => '<span>📱 Get The App!</span>',
+                        'icon' => 'admin-plugins',
+                        //'function' => array('PeepSoAdmin', 'app'),
+                        //'count' => __('NEW!', 'peepso-core'),
+                    ),
                 ),
             );
+            
+            if(class_exists('PeepSoNewAppPlugin')) {
+                unset($tabs['red']['app']);
+            }
 
             if (PeepSoSystemRequirements::is_demo_site()) {
                 unset($tabs['red']['addon']);

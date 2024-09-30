@@ -2637,18 +2637,19 @@ class PeepSoProfile extends PeepSoAjaxCallback
 
         $custom_field .= '<div class="ps-profile__notification-checkbox ps-preferences__checkbox">';
         foreach ($field['fields'] as $value) {
+
             $custom_field .= '<span data-type="' . esc_attr($value['label']) . '">';
             if ('checkbox' === $value['type']) {
                 if (isset($field['section']))
                     $custom_field .= '
-						<div class="ps-checkbox">
+						<div class="ps-checkbox"'. ('alsp_email' == $value['name'] ? ' style="opacity:0;cursor:default" ' : '' ).'>
 							<input type="checkbox" aria-labelledby="' . $name . '" class="ps-checkbox__input" id="' . esc_attr($value['name']) . '" onclick="ps_alerts.toggle(\'' . esc_attr($value['name']) . '\', this.checked)" >
 							<label class="ps-checkbox__label" for="' . esc_attr($value['name']) . '"></label>
 						</div>';
                 else {
                     $checked = (1 === $value['value'])? 'checked="checked"' : '';
                     $custom_field .= '
-						<div class="ps-checkbox">
+						<div class="ps-checkbox"'. ('alsp_email' == $value['name'] ? ' style="opacity:0;cursor:default;z-index:-999" ' : '' ).'>
 							<input type="checkbox" aria-labelledby="' . $name . ' ' . esc_attr($value['label']) . '" id="' . esc_attr($value['name']) . '" name="' . esc_attr($value['name']) . '" value="1" ' . $checked . ' class="ps-checkbox__input ' . esc_attr($value['group_key']) . '" />
 							<label class="ps-checkbox__label" for="' . esc_attr($value['name']) . '"></label>
 						</div>';
