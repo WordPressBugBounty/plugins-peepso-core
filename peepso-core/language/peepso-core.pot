@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PeepSo\n"
-"POT-Creation-Date: 2024-09-26 09:08+0700\n"
-"PO-Revision-Date: 2024-09-26 09:08+0700\n"
+"POT-Creation-Date: 2024-10-14 15:29+0700\n"
+"PO-Revision-Date: 2024-10-14 15:29+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -186,7 +186,7 @@ msgstr ""
 #: 3/classes/developer-tools/devtools_page_report.php:39
 #: 3/classes/developer-tools/devtools_page_report.php:40 classes/admin.php:340
 #: classes/configsectionadvanced.php:120 classes/configsectionadvanced.php:134
-#: classes/fields/fieldselectbool.php:22 peepso.php:3331
+#: classes/fields/fieldselectbool.php:22 peepso.php:3333
 #: templates/admin/selectoptions.php:26
 #: templates/general/notification-confirm-mark-all-read.php:3
 msgid "Yes"
@@ -200,7 +200,7 @@ msgstr ""
 #: classes/configsectionblogposts.php:297 classes/configsectionpostbox.php:27
 #: classes/configsectionpostbox.php:116 classes/configsectionpostbox.php:368
 #: classes/configsectionpostbox.php:677 classes/fields/fieldselectbool.php:22
-#: peepso.php:3332 templates/admin/selectoptions.php:26
+#: peepso.php:3334 templates/admin/selectoptions.php:26
 #: templates/general/notification-confirm-mark-all-read.php:4
 msgid "No"
 msgstr ""
@@ -301,7 +301,7 @@ msgstr ""
 
 #: 3/classes/search/admin_search.php:18
 #: 3/classes/search/search_shortcode.php:55 classes/blocks/blocksearch.php:11
-#: classes/widgets/widgetsearch.php:59 peepso.php:5685
+#: classes/widgets/widgetsearch.php:59 peepso.php:5687
 #: templates/activity/activity-stream-filters-simple.php:140
 #: templates/activity/activity-stream-filters-simple.php:169
 #: templates/activity/activity-stream-filters.php:186
@@ -329,7 +329,7 @@ msgstr ""
 msgid "Show empty sections"
 msgstr ""
 
-#: 3/classes/search/admin_search.php:83 classes/config.php:314
+#: 3/classes/search/admin_search.php:83 classes/config.php:310
 #: classes/configsectionadvanced.php:70 classes/configsectionappearance.php:623
 #: classes/configsectionmarkdown.php:63 classes/configsectionpostbox.php:456
 #: templates/admin/profiles_field.php:37
@@ -375,9 +375,9 @@ msgstr ""
 msgid "Post by %s"
 msgstr ""
 
-#: 3/classes/search/search_adapter_users.php:13 classes/admin.php:1522
+#: 3/classes/search/search_adapter_users.php:13 classes/admin.php:1521
 #: classes/general.php:83 classes/membersshortcode.php:27
-#: install/activate.php:988 peepso.php:5106
+#: install/activate.php:988 peepso.php:5108
 #: templates/members/members-tabs.php:15
 msgid "Members"
 msgstr ""
@@ -405,7 +405,7 @@ msgstr ""
 msgid "Pages"
 msgstr ""
 
-#: 3/classes/search/search_adapter_wp_posts.php:17 classes/admin.php:1512
+#: 3/classes/search/search_adapter_wp_posts.php:17 classes/admin.php:1511
 #: classes/configsectionpostbox.php:526
 msgid "Posts"
 msgstr ""
@@ -617,7 +617,7 @@ msgstr ""
 msgid "All %d %s displayed."
 msgstr ""
 
-#: activity/classes/activity.php:1547 classes/admin.php:1854
+#: activity/classes/activity.php:1547 classes/admin.php:1853
 msgid "comments"
 msgstr ""
 
@@ -664,7 +664,7 @@ msgstr ""
 
 #: activity/classes/activity.php:2407 activity/classes/activity.php:2563
 #: activity/classes/activity.php:2610 activity/classes/activity.php:2667
-#: activity/classes/activity.php:2767 classes/admin.php:1083
+#: activity/classes/activity.php:2767 classes/admin.php:1082
 #: classes/profile.php:847
 msgid "You do not have permission to do that."
 msgstr ""
@@ -681,7 +681,7 @@ msgstr ""
 msgid "You cannot ban administrators"
 msgstr ""
 
-#: activity/classes/activity.php:2436 classes/admin.php:415 peepso.php:3688
+#: activity/classes/activity.php:2436 classes/admin.php:415 peepso.php:3690
 msgid "Notice"
 msgstr ""
 
@@ -782,7 +782,7 @@ msgstr ""
 msgid "Remove Link Preview"
 msgstr ""
 
-#: activity/classes/activity.php:3251 classes/admin.php:423 peepso.php:3697
+#: activity/classes/activity.php:3251 classes/admin.php:423 peepso.php:3699
 msgid "Read more"
 msgstr ""
 
@@ -838,7 +838,7 @@ msgstr ""
 #: activity/classes/activity.php:3751 classes/admin.php:342
 #: classes/bruteforcelisttable.php:124 classes/bruteforcelisttable.php:150
 #: classes/gdprlisttable.php:252 classes/mailqueuelisttable.php:230
-#: classes/modalcomments.php:163 classes/profile.php:2046 peepso.php:3333
+#: classes/modalcomments.php:163 classes/profile.php:2046 peepso.php:3335
 #: templates/activity/dialogs.php:57 templates/admin/selectoptions.php:43
 #: templates/admin/selectoptions.php:79 templates/polls/postbox-polls.php:9
 #: templates/polls/postbox-polls.php:14 templates/profile/dialog-avatar.php:8
@@ -925,7 +925,7 @@ msgid "Report description..."
 msgstr ""
 
 #: activity/classes/activity.php:4926 activity/classes/activity.php:5137
-#: classes/admin.php:428 classes/admin.php:429 peepso.php:3702 peepso.php:3703
+#: classes/admin.php:428 classes/admin.php:429 peepso.php:3704 peepso.php:3705
 msgid " person likes this"
 msgid_plural " people like this."
 msgstr[0] ""
@@ -1358,7 +1358,7 @@ msgid ""
 "be updated."
 msgstr ""
 
-#: classes/admin.php:121 classes/admin.php:1145
+#: classes/admin.php:121 classes/admin.php:1144
 msgid "Change Role"
 msgstr ""
 
@@ -1376,26 +1376,26 @@ msgstr ""
 msgid "Dashboard"
 msgstr ""
 
-#: classes/admin.php:337 classes/admin.php:381 peepso.php:3328 peepso.php:3653
+#: classes/admin.php:337 classes/admin.php:381 peepso.php:3330 peepso.php:3655
 #: templates/activity/dialogs.php:62 templates/profile/dialog-avatar.php:60
 #: templates/profile/dialog-cover-remove.php:14
 #: templates/profile/dialog-profile-deletion.php:25
 msgid "Confirm"
 msgstr ""
 
-#: classes/admin.php:338 classes/bruteforcelisttable.php:194 peepso.php:3329
+#: classes/admin.php:338 classes/bruteforcelisttable.php:194 peepso.php:3331
 #: templates/activity/dialogs.php:51 templates/activity/dialogs.php:72
 #: templates/general/notification-confirm-mark-all-read.php:1
 #: templates/post-backgrounds/admin_post_backgrounds_item.php:101
 msgid "Are you sure?"
 msgstr ""
 
-#: classes/admin.php:339 peepso.php:3330 templates/activity/dialogs.php:53
+#: classes/admin.php:339 peepso.php:3332 templates/activity/dialogs.php:53
 msgid "Are you sure you want to delete this?"
 msgstr ""
 
-#: classes/admin.php:343 classes/admin.php:382 peepso.php:3334 peepso.php:3419
-#: peepso.php:3654 templates/activity/activity-stream-filters-simple.php:68
+#: classes/admin.php:343 classes/admin.php:382 peepso.php:3336 peepso.php:3421
+#: peepso.php:3656 templates/activity/activity-stream-filters-simple.php:68
 #: templates/activity/activity-stream-filters-simple.php:110
 #: templates/activity/activity-stream-filters-simple.php:168
 #: templates/activity/activity-stream-filters.php:70
@@ -1433,73 +1433,73 @@ msgstr ""
 msgid "Cancel"
 msgstr ""
 
-#: classes/admin.php:344 peepso.php:3335 templates/activity/dialogs.php:67
+#: classes/admin.php:344 peepso.php:3337 templates/activity/dialogs.php:67
 msgid "Okay"
 msgstr ""
 
-#: classes/admin.php:374 peepso.php:3618 templates/search/search.php:73
+#: classes/admin.php:374 peepso.php:3620 templates/search/search.php:73
 msgid "No results."
 msgstr ""
 
-#: classes/admin.php:379 peepso.php:3651
+#: classes/admin.php:379 peepso.php:3653
 msgid "Dialog"
 msgstr ""
 
 #: classes/admin.php:380 classes/admin.php:414
-#: classes/license_edd_helper.php:453 peepso.php:3652 peepso.php:3687
+#: classes/license_edd_helper.php:453 peepso.php:3654 peepso.php:3689
 msgid "Error"
 msgstr ""
 
-#: classes/admin.php:383 peepso.php:3655
+#: classes/admin.php:383 peepso.php:3657
 msgid "OK"
 msgstr ""
 
-#: classes/admin.php:413 peepso.php:3686
+#: classes/admin.php:413 peepso.php:3688
 msgid "Something went wrong. Please contact the administrator."
 msgstr ""
 
-#: classes/admin.php:418 peepso.php:3692 templates/general/notifications.php:25
+#: classes/admin.php:418 peepso.php:3694 templates/general/notifications.php:25
 msgid "Mark all as read"
 msgstr ""
 
-#: classes/admin.php:419 peepso.php:3693
+#: classes/admin.php:419 peepso.php:3695
 msgid "Are you sure you want to mark all notifications as read?"
 msgstr ""
 
-#: classes/admin.php:420 peepso.php:3694
+#: classes/admin.php:420 peepso.php:3696
 msgid "Show unread"
 msgstr ""
 
-#: classes/admin.php:421 peepso.php:3695
+#: classes/admin.php:421 peepso.php:3697
 msgid "Show all"
 msgstr ""
 
-#: classes/admin.php:422 peepso.php:3696
+#: classes/admin.php:422 peepso.php:3698
 msgid "View all"
 msgstr ""
 
 #: classes/admin.php:424 classes/profileshortcode.php:271
-#: classes/profileshortcode.php:320 peepso.php:3698
+#: classes/profileshortcode.php:320 peepso.php:3700
 msgid "The file type you uploaded is not allowed."
 msgstr ""
 
-#: classes/admin.php:425 peepso.php:3699
+#: classes/admin.php:425 peepso.php:3701
 msgid "Please login to continue"
 msgstr ""
 
-#: classes/admin.php:430 peepso.php:3704
+#: classes/admin.php:430 peepso.php:3706
 msgid "There are unsaved changes on this page."
 msgstr ""
 
-#: classes/admin.php:431 peepso.php:3705
+#: classes/admin.php:431 peepso.php:3707
 msgid "The system is currently saving your changes."
 msgstr ""
 
-#: classes/admin.php:432 peepso.php:3706
+#: classes/admin.php:432 peepso.php:3708
 msgid "Any unsaved comments will be discarded. Are you sure?"
 msgstr ""
 
-#: classes/admin.php:509 classes/template.php:141 peepso.php:3467
+#: classes/admin.php:509 classes/template.php:141 peepso.php:3469
 msgid "just now"
 msgstr ""
 
@@ -1509,18 +1509,18 @@ msgstr ""
 #: classes/admin.php:521 classes/admin.php:522 classes/admin.php:523
 #: classes/admin.php:524 classes/admin.php:525 classes/admin.php:526
 #: classes/admin.php:527 classes/admin.php:528 classes/admin.php:529
-#: classes/template.php:143 peepso.php:3470 peepso.php:3471 peepso.php:3472
-#: peepso.php:3473 peepso.php:3474 peepso.php:3475 peepso.php:3476
-#: peepso.php:3477 peepso.php:3478 peepso.php:3479 peepso.php:3480
-#: peepso.php:3481 peepso.php:3482 peepso.php:3483 peepso.php:3484
-#: peepso.php:3485 peepso.php:3486 peepso.php:3487
+#: classes/template.php:143 peepso.php:3472 peepso.php:3473 peepso.php:3474
+#: peepso.php:3475 peepso.php:3476 peepso.php:3477 peepso.php:3478
+#: peepso.php:3479 peepso.php:3480 peepso.php:3481 peepso.php:3482
+#: peepso.php:3483 peepso.php:3484 peepso.php:3485 peepso.php:3486
+#: peepso.php:3487 peepso.php:3488 peepso.php:3489
 #, php-format
 msgid "%s ago"
 msgstr ""
 
 #. translators: min=minute
 #: classes/admin.php:512 classes/admin.php:513 classes/admin.php:514
-#: lib/helpers.php:19 peepso.php:3470 peepso.php:3471 peepso.php:3472
+#: lib/helpers.php:19 peepso.php:3472 peepso.php:3473 peepso.php:3474
 #, php-format
 msgid "%s min"
 msgid_plural "%s mins"
@@ -1529,7 +1529,7 @@ msgstr[1] ""
 
 #: classes/admin.php:515 classes/admin.php:516 classes/admin.php:517
 #: classes/bruteforce.php:239 classes/bruteforce.php:277 lib/helpers.php:24
-#: peepso.php:3473 peepso.php:3474 peepso.php:3475
+#: peepso.php:3475 peepso.php:3476 peepso.php:3477
 #, php-format
 msgid "%s hour"
 msgid_plural "%s hours"
@@ -1537,7 +1537,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: classes/admin.php:518 classes/admin.php:519 classes/admin.php:520
-#: lib/helpers.php:29 peepso.php:3476 peepso.php:3477 peepso.php:3478
+#: lib/helpers.php:29 peepso.php:3478 peepso.php:3479 peepso.php:3480
 #, php-format
 msgid "%s day"
 msgid_plural "%s days"
@@ -1545,7 +1545,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: classes/admin.php:521 classes/admin.php:522 classes/admin.php:523
-#: lib/helpers.php:34 peepso.php:3479 peepso.php:3480 peepso.php:3481
+#: lib/helpers.php:34 peepso.php:3481 peepso.php:3482 peepso.php:3483
 #, php-format
 msgid "%s week"
 msgid_plural "%s weeks"
@@ -1553,7 +1553,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: classes/admin.php:524 classes/admin.php:525 classes/admin.php:526
-#: lib/helpers.php:39 peepso.php:3482 peepso.php:3483 peepso.php:3484
+#: lib/helpers.php:39 peepso.php:3484 peepso.php:3485 peepso.php:3486
 #, php-format
 msgid "%s month"
 msgid_plural "%s months"
@@ -1561,14 +1561,14 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: classes/admin.php:527 classes/admin.php:528 classes/admin.php:529
-#: lib/helpers.php:44 peepso.php:3485 peepso.php:3486 peepso.php:3487
+#: lib/helpers.php:44 peepso.php:3487 peepso.php:3488 peepso.php:3489
 #, php-format
 msgid "%s year"
 msgid_plural "%s years"
 msgstr[0] ""
 msgstr[1] ""
 
-#: classes/admin.php:596 classes/config.php:99
+#: classes/admin.php:596 classes/config.php:98
 msgid "Configuration"
 msgstr ""
 
@@ -1580,7 +1580,7 @@ msgstr ""
 msgid "Queues"
 msgstr ""
 
-#: classes/admin.php:615 classes/admin.php:787
+#: classes/admin.php:615 classes/admin.php:786
 msgid "Installer"
 msgstr ""
 
@@ -1588,276 +1588,276 @@ msgstr ""
 msgid "Upgrade Now!"
 msgstr ""
 
-#: classes/admin.php:750
+#: classes/admin.php:749
 #, php-format
 msgid "Theme activated"
 msgid_plural "%d themes activated"
 msgstr[0] ""
 msgstr[1] ""
 
-#: classes/admin.php:752
+#: classes/admin.php:751
 #, php-format
 msgid "Plugin activated"
 msgid_plural "%d plugins activated"
 msgstr[0] ""
 msgstr[1] ""
 
-#: classes/admin.php:761
+#: classes/admin.php:760
 #, php-format
 msgid "%d activation error"
 msgid_plural "%d activation errors"
 msgstr[0] ""
 msgstr[1] ""
 
-#: classes/admin.php:795 templates/admin/addons.php:98
+#: classes/admin.php:794 templates/admin/addons.php:98
 #: templates/admin/addons.php:131 templates/admin/addons_product.php:125
 msgid "Install"
 msgstr ""
 
-#: classes/admin.php:796 templates/admin/addons_product.php:126
+#: classes/admin.php:795 templates/admin/addons_product.php:126
 msgid "Installing..."
 msgstr ""
 
-#: classes/admin.php:797
+#: classes/admin.php:796
 msgid "Installed"
 msgstr ""
 
-#: classes/admin.php:798
+#: classes/admin.php:797
 msgid "Failed to install"
 msgstr ""
 
-#: classes/admin.php:799 templates/admin/addons_product.php:131
+#: classes/admin.php:798 templates/admin/addons_product.php:131
 msgid "Not installed"
 msgstr ""
 
-#: classes/admin.php:800 classes/configsectionnetwork.php:173
+#: classes/admin.php:799 classes/configsectionnetwork.php:173
 #: templates/admin/addons_product.php:103
 msgid "Active"
 msgstr ""
 
-#: classes/admin.php:801 templates/admin/addons.php:99
+#: classes/admin.php:800 templates/admin/addons.php:99
 #: templates/admin/addons.php:132 templates/admin/addons_product.php:111
 msgid "Activate"
 msgstr ""
 
-#: classes/admin.php:802 templates/admin/addons_product.php:112
+#: classes/admin.php:801 templates/admin/addons_product.php:112
 msgid "Activating..."
 msgstr ""
 
-#: classes/admin.php:803
+#: classes/admin.php:802
 msgid "Activated"
 msgstr ""
 
-#: classes/admin.php:804
+#: classes/admin.php:803
 msgid "Failed to activate"
 msgstr ""
 
-#: classes/admin.php:805 templates/admin/addons_product.php:118
+#: classes/admin.php:804 templates/admin/addons_product.php:118
 msgid "Inactive"
 msgstr ""
 
-#: classes/admin.php:806 templates/admin/addons.php:68
+#: classes/admin.php:805 templates/admin/addons.php:68
 msgid "Your license"
 msgstr ""
 
-#: classes/admin.php:899
+#: classes/admin.php:898
 msgid "PeepSo Role"
 msgstr ""
 
-#: classes/admin.php:1058
+#: classes/admin.php:1057
 msgid " approved"
 msgstr ""
 
-#: classes/admin.php:1063
+#: classes/admin.php:1062
 msgid " banned"
 msgstr ""
 
-#: classes/admin.php:1068
+#: classes/admin.php:1067
 msgid "Invalid action"
 msgstr ""
 
-#: classes/admin.php:1087
+#: classes/admin.php:1086
 msgid "Form is invalid."
 msgstr ""
 
-#: classes/admin.php:1118
+#: classes/admin.php:1117
 msgid "Please select a PeepSo Role before clicking on \"Change Role\"."
 msgstr ""
 
-#: classes/admin.php:1135
+#: classes/admin.php:1134
 msgid "Set PeepSo Role:"
 msgstr ""
 
-#: classes/admin.php:1137
+#: classes/admin.php:1136
 msgid " - Select Role -"
 msgstr ""
 
-#: classes/admin.php:1164
+#: classes/admin.php:1163
 msgid "Full member, can write posts and participate"
 msgstr ""
 
-#: classes/admin.php:1166
+#: classes/admin.php:1165
 msgid "PeepSo Administrator, can Moderate, edit users, etc."
 msgstr ""
 
-#: classes/admin.php:1167
+#: classes/admin.php:1166
 msgid "Banned, cannot login or participate"
 msgstr ""
 
-#: classes/admin.php:1168
+#: classes/admin.php:1167
 msgid "Registered, awaiting email verification"
 msgstr ""
 
-#: classes/admin.php:1169
+#: classes/admin.php:1168
 msgid "Verified email, awaiting Adminstrator approval"
 msgstr ""
 
-#: classes/admin.php:1180
+#: classes/admin.php:1179
 msgid "Community Member"
 msgstr ""
 
-#: classes/admin.php:1181
+#: classes/admin.php:1180
 msgid "Community Moderator"
 msgstr ""
 
-#: classes/admin.php:1182
+#: classes/admin.php:1181
 msgid "Community Administrator"
 msgstr ""
 
-#: classes/admin.php:1183
+#: classes/admin.php:1182
 msgid "Banned"
 msgstr ""
 
-#: classes/admin.php:1184
+#: classes/admin.php:1183
 msgid "Pending user email verification"
 msgstr ""
 
-#: classes/admin.php:1185
+#: classes/admin.php:1184
 msgid "Pending admin approval"
 msgstr ""
 
-#: classes/admin.php:1220
+#: classes/admin.php:1219
 msgid "Profile Link"
 msgstr ""
 
-#: classes/admin.php:1295
+#: classes/admin.php:1294
 msgid "Get Free eBook Now! ($9.99 Value)"
 msgstr ""
 
-#: classes/admin.php:1303
+#: classes/admin.php:1302
 msgid "User Engagement"
 msgstr ""
 
-#: classes/admin.php:1310
+#: classes/admin.php:1309
 msgid "Users"
 msgstr ""
 
-#: classes/admin.php:1317
+#: classes/admin.php:1316
 msgid "Most Recent Content"
 msgstr ""
 
-#: classes/admin.php:1323
+#: classes/admin.php:1322
 msgid "User Demographics"
 msgstr ""
 
-#: classes/admin.php:1440 peepso.php:7319
+#: classes/admin.php:1439 peepso.php:7321
 msgid "Male"
 msgstr ""
 
-#: classes/admin.php:1447 peepso.php:7320
+#: classes/admin.php:1446 peepso.php:7322
 msgid "Female"
 msgstr ""
 
-#: classes/admin.php:1454 classes/bruteforcelisttable.php:100
+#: classes/admin.php:1453 classes/bruteforcelisttable.php:100
 #: classes/gdprlisttable.php:152 classes/mailqueuelisttable.php:172
 msgid "Unknown"
 msgstr ""
 
-#: classes/admin.php:1517 classes/configsectionpostbox.php:548
+#: classes/admin.php:1516 classes/configsectionpostbox.php:548
 #: install/activate.php:440 templates/general/lightbox.php:18
 msgid "Comments"
 msgstr ""
 
-#: classes/admin.php:1574 classes/admin.php:1629
+#: classes/admin.php:1573 classes/admin.php:1628
 msgid "No recent posts."
 msgstr ""
 
-#: classes/admin.php:1594 classes/admin.php:1664 classes/admin.php:1716
-#: classes/admin.php:1722 classes/admin.php:1893 classes/admin.php:1899
+#: classes/admin.php:1593 classes/admin.php:1663 classes/admin.php:1715
+#: classes/admin.php:1721 classes/admin.php:1892 classes/admin.php:1898
 msgid "View profile"
 msgstr ""
 
-#: classes/admin.php:1599
+#: classes/admin.php:1598
 msgid "View post"
 msgstr ""
 
-#: classes/admin.php:1671
+#: classes/admin.php:1670
 msgid "View comment"
 msgstr ""
 
-#: classes/admin.php:1702
+#: classes/admin.php:1701
 msgid "No users found"
 msgstr ""
 
-#: classes/admin.php:1730
+#: classes/admin.php:1729
 msgid "Edit this user"
 msgstr ""
 
-#: classes/admin.php:1761 peepso.php:5136
+#: classes/admin.php:1760 peepso.php:5138
 msgid "Stream"
 msgstr ""
 
-#: classes/admin.php:1804
+#: classes/admin.php:1803
 msgid "This week"
 msgstr ""
 
-#: classes/admin.php:1805
+#: classes/admin.php:1804
 msgid "Last week"
 msgstr ""
 
-#: classes/admin.php:1806
+#: classes/admin.php:1805
 msgid "This month"
 msgstr ""
 
-#: classes/admin.php:1807
+#: classes/admin.php:1806
 msgid "Last month"
 msgstr ""
 
-#: classes/admin.php:1850 peepso.php:2156
+#: classes/admin.php:1849 peepso.php:2156
 msgid "posts"
 msgstr ""
 
-#: classes/admin.php:1858
+#: classes/admin.php:1857
 msgid "likes"
 msgstr ""
 
-#: classes/admin.php:1883
+#: classes/admin.php:1882
 msgid "The list is empty"
 msgstr ""
 
-#: classes/admin.php:1905
+#: classes/admin.php:1904
 msgid "Approve"
 msgstr ""
 
-#: classes/admin.php:1906
+#: classes/admin.php:1905
 msgid "Dismiss and Ban"
 msgstr ""
 
-#: classes/admin.php:1917
+#: classes/admin.php:1916
 msgid "See all Pending Members"
 msgstr ""
 
-#: classes/admin.php:2034
+#: classes/admin.php:2028
 msgid ""
 "Once registered, you will receive updates and special offers from PeepSo. We "
 "will send your administrator's email and site URL to PeepSo server."
 msgstr ""
 
-#: classes/admin.php:2048
+#: classes/admin.php:2046
 msgid "I don't want to register"
 msgstr ""
 
-#: classes/admin.php:2059
+#: classes/admin.php:2057
 msgid "Enable additional statistics"
 msgstr ""
 
@@ -2043,7 +2043,7 @@ msgid ""
 "<br><br>Contact the webmaster if the problem persists."
 msgstr ""
 
-#: classes/auth.php:51 peepso.php:2913
+#: classes/auth.php:51 peepso.php:2915
 msgid "ReCaptcha security check failed."
 msgstr ""
 
@@ -2229,55 +2229,55 @@ msgstr ""
 msgid "Class must be instance of PeepSoConfigSectionAbstract"
 msgstr ""
 
-#: classes/config.php:192
+#: classes/config.php:188
 msgid "Tab titles"
 msgstr ""
 
-#: classes/config.php:199
+#: classes/config.php:195
 msgid "Field descriptions"
 msgstr ""
 
-#: classes/config.php:210
+#: classes/config.php:206
 msgid "Some settings have been changed. Be sure to save your changes."
 msgstr ""
 
-#: classes/config.php:306
+#: classes/config.php:302
 msgid "PeepSo Free Bundle"
 msgstr ""
 
-#: classes/config.php:317
+#: classes/config.php:313
 msgid "General configuration settings for PeepSo"
 msgstr ""
 
-#: classes/config.php:323 templates/admin/profiles_field.php:38
+#: classes/config.php:319 templates/admin/profiles_field.php:38
 msgid "Appearance"
 msgstr ""
 
-#: classes/config.php:325
+#: classes/config.php:321
 msgid "Look and feel settings"
 msgstr ""
 
-#: classes/config.php:332
+#: classes/config.php:328
 msgid "Accounts & Security"
 msgstr ""
 
-#: classes/config.php:334
+#: classes/config.php:330
 msgid "Registration, login and security"
 msgstr ""
 
-#: classes/config.php:341
+#: classes/config.php:337
 msgid "Stream Posts"
 msgstr ""
 
-#: classes/config.php:350 classes/config.php:353
+#: classes/config.php:346 classes/config.php:349
 msgid "Markdown"
 msgstr ""
 
-#: classes/config.php:359
+#: classes/config.php:355
 msgid "Blog Posts"
 msgstr ""
 
-#: classes/config.php:375 classes/configsectionappearance.php:608
+#: classes/config.php:371 classes/configsectionappearance.php:608
 #: classes/general.php:154 classes/notificationsqueue.php:304
 #: classes/notificationsshortcode.php:23 classes/profileshortcode.php:605
 #: classes/widgets/widgetuserbar.php:214 install/activate.php:993
@@ -2285,56 +2285,56 @@ msgstr ""
 msgid "Notifications"
 msgstr ""
 
-#: classes/config.php:383
+#: classes/config.php:379
 msgid "Edit Emails"
 msgstr ""
 
-#: classes/config.php:386
+#: classes/config.php:382
 msgid "Edit content of emails sent by PeepSo to users and Admins"
 msgstr ""
 
-#: classes/config.php:391 classes/configsectionaccounts.php:676
+#: classes/config.php:387 classes/configsectionaccounts.php:676
 #: classes/configsectionadvanced.php:113
 #: classes/configsectionappearance.php:291 classes/configsectionpostbox.php:354
 #: classes/configsectionpostbox.php:798
 msgid "Advanced"
 msgstr ""
 
-#: classes/config.php:394
+#: classes/config.php:390
 msgid "Advanced System options"
 msgstr ""
 
-#: classes/config.php:400 peepso.php:2201 templates/members/search.php:75
+#: classes/config.php:396 peepso.php:2201 templates/members/search.php:75
 msgid "Moderation"
 msgstr ""
 
-#: classes/config.php:403
+#: classes/config.php:399
 msgid "Moderating content"
 msgstr ""
 
-#: classes/config.php:409 classes/configsectionlocation.php:42
+#: classes/config.php:405 classes/configsectionlocation.php:42
 #: classes/location.php:121 classes/location.php:126 classes/location.php:156
 #: classes/profilefields.php:213
 msgid "Location"
 msgstr ""
 
-#: classes/config.php:418
+#: classes/config.php:414
 msgid "Navigation & Filters"
 msgstr ""
 
-#: classes/config.php:427
+#: classes/config.php:423
 msgid "Live updates"
 msgstr ""
 
-#: classes/config.php:539
+#: classes/config.php:535
 msgid "Options updated"
 msgstr ""
 
-#: classes/config.php:542
+#: classes/config.php:538
 msgid "Please correct the errors below"
 msgstr ""
 
-#: classes/config.php:634
+#: classes/config.php:630
 #, php-format
 msgid "Toggle panel: %s"
 msgstr ""
@@ -2718,7 +2718,7 @@ msgid "Get Google ReCaptcha keys %s"
 msgstr ""
 
 #: classes/configsectionaccounts.php:105 classes/configsectionadvanced.php:208
-#: classes/configsectionlocation.php:29 classes/location.php:43 peepso.php:3823
+#: classes/configsectionlocation.php:29 classes/location.php:43 peepso.php:3825
 msgid "here"
 msgstr ""
 
@@ -4279,7 +4279,7 @@ msgstr ""
 msgid "Optional. Displays above comments"
 msgstr ""
 
-#: classes/configsectionblogposts.php:391 peepso.php:5680
+#: classes/configsectionblogposts.php:391 peepso.php:5682
 msgid "Activity Stream"
 msgstr ""
 
@@ -4488,7 +4488,7 @@ msgid "Primary Navigation"
 msgstr ""
 
 #: classes/configsectionnavigation.php:218
-#: classes/configsectionnavigation.php:265 peepso.php:3801
+#: classes/configsectionnavigation.php:265 peepso.php:3803
 msgid "Front Page"
 msgstr ""
 
@@ -6551,7 +6551,7 @@ msgid "Pick only one."
 msgstr ""
 
 #: classes/fields/fieldselectsingle.php:76
-#: classes/fields/fieldselectsingle.php:110
+#: classes/fields/fieldselectsingle.php:108
 msgid "Select an option..."
 msgstr ""
 
@@ -6758,7 +6758,7 @@ msgstr ""
 msgid "%s has not followed anybody yet"
 msgstr ""
 
-#: classes/form.php:624 classes/register.php:190
+#: classes/form.php:620 classes/register.php:190
 #: classes/widgets/widgetuserbar.php:206
 #: templates/profile/dialog-avatar.php:111
 #: templates/profile/dialog-profile-avatar.php:6 templates/profile/focus.php:61
@@ -6766,7 +6766,7 @@ msgstr ""
 msgid "Avatar"
 msgstr ""
 
-#: classes/form.php:865
+#: classes/form.php:861
 msgid "ReCaptcha security check failed"
 msgstr ""
 
@@ -6870,7 +6870,7 @@ msgstr ""
 msgid "Failed"
 msgstr ""
 
-#: classes/gdpr.php:30 classes/gdprlisttable.php:149 peepso.php:3573
+#: classes/gdpr.php:30 classes/gdprlisttable.php:149 peepso.php:3575
 #: templates/admin/queue-status-description.php:30
 msgid "Success"
 msgstr ""
@@ -6898,7 +6898,7 @@ msgid "Personal Data"
 msgstr ""
 
 #: classes/gdpr.php:553 classes/gdpr.php:1157 classes/general.php:40
-#: peepso.php:5100
+#: peepso.php:5102
 msgid "Activity"
 msgstr ""
 
@@ -7659,7 +7659,7 @@ msgid_plural "Followers"
 msgstr[0] ""
 msgstr[1] ""
 
-#: classes/profile.php:1364 peepso.php:5148 templates/followers/submenu.php:8
+#: classes/profile.php:1364 peepso.php:5150 templates/followers/submenu.php:8
 msgid "Followers"
 msgstr ""
 
@@ -8013,19 +8013,19 @@ msgstr ""
 msgid "Changes successfully saved."
 msgstr ""
 
-#: classes/profileshortcode.php:502 peepso.php:3636 peepso.php:3642
+#: classes/profileshortcode.php:502 peepso.php:3638 peepso.php:3644
 #: templates/profile/dialog-profile-avatar.php:70
 msgid ""
 "The file type you uploaded is not allowed. Only JPEG, PNG, and WEBP allowed."
 msgstr ""
 
-#: classes/profileshortcode.php:504 peepso.php:3628 peepso.php:3647
+#: classes/profileshortcode.php:504 peepso.php:3630 peepso.php:3649
 #: templates/profile/dialog-profile-avatar.php:71
 #, php-format
 msgid "The file size you uploaded is too big. The maximum file size is %s."
 msgstr ""
 
-#: classes/profileshortcode.php:595 peepso.php:5141
+#: classes/profileshortcode.php:595 peepso.php:5143
 msgid "About"
 msgstr ""
 
@@ -8256,7 +8256,7 @@ msgstr ""
 msgid "Please enter an activation code"
 msgstr ""
 
-#: classes/registershortcode.php:378 peepso.php:3036 peepso.php:4984
+#: classes/registershortcode.php:378 peepso.php:3038 peepso.php:4986
 msgid "Your account has been suspended indefinitely"
 msgstr ""
 
@@ -8394,7 +8394,7 @@ msgstr ""
 msgid "unpublished"
 msgstr ""
 
-#: classes/vip.php:264
+#: classes/vip.php:266
 msgid "PeepSo VIP icons"
 msgstr ""
 
@@ -8786,12 +8786,12 @@ msgid ""
 "can use your site as usual."
 msgstr ""
 
-#: peepso.php:3049 peepso.php:4974
+#: peepso.php:3051 peepso.php:4976
 #, php-format
 msgid "Your account has been suspended until %s."
 msgstr ""
 
-#: peepso.php:3196
+#: peepso.php:3198
 #, php-format
 msgid ""
 "Cannot activate PeepSo; it requires <b>Permalinks</b> to be enabled. Go to "
@@ -8799,75 +8799,75 @@ msgid ""
 "<i>Default</i> option."
 msgstr ""
 
-#: peepso.php:3416 peepso.php:3418
+#: peepso.php:3418 peepso.php:3420
 msgid "Ban this user"
 msgstr ""
 
-#: peepso.php:3534
+#: peepso.php:3536
 msgid ""
 "Deleting this post will reset likes and comments on the blog post. If "
 "comment integration is enabled, a fresh activity post will be automatically "
 "created."
 msgstr ""
 
-#: peepso.php:3573
+#: peepso.php:3575
 msgid "Your account has been activated"
 msgstr ""
 
-#: peepso.php:3689
+#: peepso.php:3691
 msgid "Done!"
 msgstr ""
 
-#: peepso.php:3707
+#: peepso.php:3709
 msgid "Are you sure want to ignore this report(s)?"
 msgstr ""
 
-#: peepso.php:3708
+#: peepso.php:3710
 msgid "Are you sure want to delete reported post?"
 msgstr ""
 
-#: peepso.php:3816
+#: peepso.php:3818
 #, php-format
 msgid ""
 "The assigned page with %s shortcode was not found.<br/>Make sure the page "
 "exists (is not trashed) and is published."
 msgstr ""
 
-#: peepso.php:3818
+#: peepso.php:3820
 #, php-format
 msgid "Or choose another page from %s."
 msgstr ""
 
-#: peepso.php:3818
+#: peepso.php:3820
 msgid "the list"
 msgstr ""
 
-#: peepso.php:3821
+#: peepso.php:3823
 #, php-format
 msgid "Or create a new page with %s shortcode and assign it %s."
 msgstr ""
 
-#: peepso.php:4989
+#: peepso.php:4991
 msgid "Your account is awaiting admin approval."
 msgstr ""
 
-#: peepso.php:4993
+#: peepso.php:4995
 msgid ""
 "Please verify the email address you have provided using the link in the "
 "email that was sent to you."
 msgstr ""
 
-#: peepso.php:5029
+#: peepso.php:5031
 msgid "This user may not login at the moment."
 msgstr ""
 
-#: peepso.php:5430
+#: peepso.php:5432
 msgid ""
 "PeepSo is having issues validating your license. <a "
 "href=\"ENTER_LICENSE\">Review your PeepSo license keys</a>."
 msgstr ""
 
-#: peepso.php:5445 peepso.php:5453 peepso.php:5461
+#: peepso.php:5447 peepso.php:5455 peepso.php:5463
 #, php-format
 msgid ""
 "It looks like %s were not processing properly. We just tried to fix it "
@@ -8876,19 +8876,19 @@ msgid ""
 "activating PeepSo or contacting Support.</small>"
 msgstr ""
 
-#: peepso.php:5445
+#: peepso.php:5447
 msgid "PeepSo emails"
 msgstr ""
 
-#: peepso.php:5453
+#: peepso.php:5455
 msgid "PeepSo Maintenance Scripts"
 msgstr ""
 
-#: peepso.php:5461
+#: peepso.php:5463
 msgid "PeepSo GDPR Scripts"
 msgstr ""
 
-#: peepso.php:5502
+#: peepso.php:5504
 #, php-format
 msgid ""
 "The following PeepSo add-on plugins are incompatible with PeepSo Foundation "
@@ -8896,190 +8896,190 @@ msgid ""
 "conflicts and issues."
 msgstr ""
 
-#: peepso.php:5555
+#: peepso.php:5557
 #, php-format
 msgid "is not fully compatible with <strong>PeepSo %s</strong>. "
 msgstr ""
 
-#: peepso.php:5560
+#: peepso.php:5562
 #, php-format
 msgid "was only tested up to <strong>PeepSo %s</strong>. "
 msgstr ""
 
-#: peepso.php:5563
+#: peepso.php:5565
 #, php-format
 msgid "has been disabled because it requires <strong>PeepSo %s</strong>. "
 msgstr ""
 
-#: peepso.php:5566
+#: peepso.php:5568
 #, php-format
 msgid "You are running PeepSo %s."
 msgstr ""
 
-#: peepso.php:5573
+#: peepso.php:5575
 #, php-format
 msgid "Please upgrade PeepSo %s and PeepSo. "
 msgstr ""
 
-#: peepso.php:5576
+#: peepso.php:5578
 msgid "Upgrade now!"
 msgstr ""
 
-#: peepso.php:5586
+#: peepso.php:5588
 msgid "PeepSo Email Notifications"
 msgstr ""
 
-#: peepso.php:5590
+#: peepso.php:5592
 msgid "Email preferences"
 msgstr ""
 
-#: peepso.php:5592
+#: peepso.php:5594
 msgid "Unsubscribe this user from all email notifications"
 msgstr ""
 
-#: peepso.php:5648
+#: peepso.php:5650
 msgid "Every One Minute"
 msgstr ""
 
-#: peepso.php:5654
+#: peepso.php:5656
 msgid "Every Five Minutes"
 msgstr ""
 
-#: peepso.php:5660
+#: peepso.php:5662
 msgid "Once Weekly"
 msgstr ""
 
-#: peepso.php:5690
+#: peepso.php:5692
 msgid "Profile Pages"
 msgstr ""
 
-#: peepso.php:5993
+#: peepso.php:5995
 msgid ""
 "Can't load comments and likes. Try refreshing the page or contact the "
 "Administrators."
 msgstr ""
 
-#: peepso.php:6054
+#: peepso.php:6056
 msgid "No comments yet"
 msgstr ""
 
-#: peepso.php:6084 templates/activity/comment-edit.php:8
+#: peepso.php:6086 templates/activity/comment-edit.php:8
 #: templates/activity/comment-modal-attachment.php:157
 #: templates/activity/post.php:161
 msgid "Write a comment..."
 msgstr ""
 
-#: peepso.php:6096 templates/activity/comment-modal-attachment.php:169
+#: peepso.php:6098 templates/activity/comment-modal-attachment.php:169
 #: templates/activity/comment-reply.php:33 templates/activity/post.php:173
 msgid "Clear"
 msgstr ""
 
-#: peepso.php:6097 templates/activity/comment-modal-attachment.php:170
+#: peepso.php:6099 templates/activity/comment-modal-attachment.php:170
 #: templates/activity/comment-reply.php:34 templates/activity/post-edit.php:21
 #: templates/activity/post.php:174 templates/general/postbox-legacy.php:38
 #: templates/general/postbox.php:34
 msgid "Post"
 msgstr ""
 
-#: peepso.php:6104 templates/activity/comment-modal-attachment.php:114
+#: peepso.php:6106 templates/activity/comment-modal-attachment.php:114
 #: templates/activity/post.php:143
 msgid "Comments are closed"
 msgstr ""
 
-#: peepso.php:6162
+#: peepso.php:6164
 msgid "Blog"
 msgstr ""
 
-#: peepso.php:6476
+#: peepso.php:6478
 msgid "You have no blog posts yet"
 msgstr ""
 
-#: peepso.php:6476
+#: peepso.php:6478
 #, php-format
 msgid "%s has no blog posts yet"
 msgstr ""
 
-#: peepso.php:6885
+#: peepso.php:6887
 msgid "Half width"
 msgstr ""
 
-#: peepso.php:6909
+#: peepso.php:6911
 msgid "Searchable"
 msgstr ""
 
-#: peepso.php:6910
+#: peepso.php:6912
 msgid ""
 "Warning: searchable fields privacy will be forced as \"Site Members\" and "
 "will not be editable by users. The \"Privacy\" config tab will have no "
 "effect."
 msgstr ""
 
-#: peepso.php:6933
+#: peepso.php:6935
 msgid "Show in registration"
 msgstr ""
 
-#: peepso.php:6957
+#: peepso.php:6959
 msgid "Show only in registration"
 msgstr ""
 
-#: peepso.php:6959
+#: peepso.php:6961
 msgid ""
 "The field will only show during registration. Administrators will be still "
 "able to see the field in user profiles."
 msgstr ""
 
-#: peepso.php:6961 peepso.php:6992 peepso.php:7017
+#: peepso.php:6963 peepso.php:6994 peepso.php:7019
 msgid "The field will not be counted in profile completeness."
 msgstr ""
 
-#: peepso.php:6988
+#: peepso.php:6990
 msgid "Only Admin can edit"
 msgstr ""
 
-#: peepso.php:6990
+#: peepso.php:6992
 msgid ""
 "The field will be editable only by the Admins, and will be seen by anyone "
 "who matches the field privacy."
 msgstr ""
 
-#: peepso.php:7013
+#: peepso.php:7015
 msgid "Only Admin can see"
 msgstr ""
 
-#: peepso.php:7015
+#: peepso.php:7017
 msgid ""
 "The field will be visible and editable only by the Admins. Enable this if "
 "you need the field to serve an Admin-only purpose (eg a temporary field "
 "draft, or Admin user notes)."
 msgstr ""
 
-#: peepso.php:7042
+#: peepso.php:7044
 msgid "Preset domain"
 msgstr ""
 
-#: peepso.php:7060
+#: peepso.php:7062
 msgid "User prefix"
 msgstr ""
 
-#: peepso.php:7079
+#: peepso.php:7081
 msgid "Show a privacy warning"
 msgstr ""
 
-#: peepso.php:7080
+#: peepso.php:7082
 msgid ""
 "When enabled, users will be presented with a privacy warning after going "
 "into \"edit mode\" of this profile field"
 msgstr ""
 
-#: peepso.php:7102
+#: peepso.php:7104
 msgid "Privacy warning text"
 msgstr ""
 
-#: peepso.php:7294
+#: peepso.php:7296
 msgid "Duplicate"
 msgstr ""
 
-#: peepso.php:7350
+#: peepso.php:7352
 msgid "Your scheduled post is live"
 msgstr ""
 
